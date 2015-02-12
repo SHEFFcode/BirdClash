@@ -171,7 +171,7 @@ bool GamePlay::init()
         def->setIntegerForKey("power1",5);
         def->setIntegerForKey("power2",5);
         def->setIntegerForKey("power3",2);
-        def->getIntegerForKey("sound", 1);
+        def->setIntegerForKey("sound", 1);
     }
 //    def->setIntegerForKey("power1",0);
 //    def->setIntegerForKey("power2",0);
@@ -190,7 +190,7 @@ bool GamePlay::init()
             def->setIntegerForKey("blue3", 1);
     }
     
-    auto calculatedVelocity = (640 / visibleSize.height) * 0.001;
+    auto calculatedVelocity = (640 / visibleSize.height) * 0.0015;
     if((visibleSize.width == 1024 && visibleSize.height == 768) || (visibleSize.width == 2048 && visibleSize.height == 1536)) {
         calculatedVelocity = (500 / visibleSize.height) * 0.005;
     }

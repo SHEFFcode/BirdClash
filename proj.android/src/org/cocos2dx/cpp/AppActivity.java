@@ -68,7 +68,7 @@ public class AppActivity extends Cocos2dxActivity {
 
 private static AppActivity _appActiviy;
 private AdView adView;
-private static final String AD_UNIT_ID = "ca-app-pub-5028583077948436/4145471108";
+private static final String AD_UNIT_ID = "ca-app-pub-5028583077948436/6217949107";
 
 // Helper get display screen to avoid deprecated function use
 private Point getDisplaySize(Display d)

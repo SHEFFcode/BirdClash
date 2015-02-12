@@ -33,10 +33,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
     //Initialize SoomLa
     cherryAssets *assets = cherryAssets::create();
     __Dictionary *commonParams = __Dictionary::create();
-    commonParams->setObject(__String::create("ExampleCustomSecret"), "customSecret");
+    commonParams->setObject(__String::create("AllFemaleGhostbusters_suck_ass101!"), "customSecret");
     soomla::CCServiceManager::getInstance()->setCommonParams(commonParams);
     __Dictionary *storeParams = __Dictionary::create();
-    storeParams->setObject(__String::create("ExamplePublicKey"), "androidPublicKey");
+    storeParams->setObject(__String::create("MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhur9UuFtfu1+WCbHr/lry1qSvmkmpU/71s9vuIrFPyfoadjDv9QxKtw6wV/QnbT0TYc5mVSsCNgMjryqxy8+UvG0ZEH4doq3BWUIfYgUrUJ0q9z/6MVzXb8KJOuff8PX6IneCYnEdpJqk0U0ZeHmtxiiEqTxnR0pR1WUoTxHsMhy1S+6kzu7778cTeEfyXT5ZvIZP4XVf2JO0T8rhUz7uSuTZyO4ZPakzXuV1MKIoAV4pv69XemizkkSQxxPNrPfWEpj+5mBgdmdzXsLOUzYDxWtKkhNnzkKRL6hHik5ZRgcQMyMhbqHCfmGqz8hZ1s9SujtacW1APDnWNe/DbY1NwIDAQAB"), "androidPublicKey");
     
     soomla::CCStoreService::initShared(assets, storeParams);
     
